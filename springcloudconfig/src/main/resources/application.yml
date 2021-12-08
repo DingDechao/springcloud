@@ -1,0 +1,13 @@
+#server
+server:
+  port: 8888
+
+#spring cloud
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: classpath:config/springcloudclient1,classpath:config/springcloudclient2

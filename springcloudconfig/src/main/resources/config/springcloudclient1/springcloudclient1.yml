@@ -1,0 +1,9 @@
+#server
+server:
+  port: 8081
+#spring
+spring:
+  application:
+    name: springcloudclient1
+example:
+  property: "This is springcloudclient1 demo"
