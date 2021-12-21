@@ -2,6 +2,8 @@
 1. Start service springcloudconfig first
 2. Setup application.properties
 3. Start service springcloudclient1
+4. Regist springcloudclient to springcloudeureka
+5. Add springcloud openfeign
 
 ## How to verify properties which getting from config service
 ### Check service springcloudclient1 is up
@@ -38,5 +40,11 @@ This is springcloudclient1 demo
 http://localhost:8761/
 http://localhost:8761/eureka/apps
 http://localhost:8761/eureka/apps/SPRINGCLOUDCLIENT1
+```
+### Add spring cloud openFeign
+```
+http://localhost:8081/testFeignClient
+Response:
+This is springcloudclient2 demo
 ```
 
