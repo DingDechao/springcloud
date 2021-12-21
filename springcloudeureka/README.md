@@ -1,5 +1,9 @@
 # Spring cloud Server registry
 ```
+Eureka console
+http://localhost:8761/
+```
+```
 Http Method : GET
 http://localhost:8761/eureka/apps
 Response

@@ -33,3 +33,10 @@ http://localhost:8081/helloworld
 Response
 This is springcloudclient1 demo
 ```
+### Check from spring cloud service registry eureka
+```
+http://localhost:8761/
+http://localhost:8761/eureka/apps
+http://localhost:8761/eureka/apps/SPRINGCLOUDCLIENT1
+```
+
